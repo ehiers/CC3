@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: black;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: 'Special Elite', serif;
+  color: rgba(212,212,212,1);
+  color: rgba(255,255,255,1);
+  color: rgba(275,275,275,1);
+  color: white;
+  color: rgba(10,10,10,1);
+  color: black;
+}
+h2 {
+  font-family: 'Special Elite', serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1rem;
+}
+h6 {
+  font-size: 0.8rem;
+  font-family: 'Special Elite', serif;
+}
+.fullnav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  margin-right: 2rem;
+}
+.fullnav {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 4rem;
+  margin-top: 0.5rem;
+}
+header h1 {
+  margin-left: 4rem;
+}
+header {
+  background-color: white;
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+#section1{
+  display: flex;
+  height: 600px;
+  width: 100%;
+}
+#container1,
+#container2 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    width: 100%;
+}
+#mainimg {
+  width: 100%;
+  height: auto;
+  background-image: url("./IMG_9922_bw.jpg");
+  background-image: url("./IMG_9922.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  border: 1px solid rgba(194,194,194,1);
+}
+
+.showbox,
+.mediabox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0.5rem;
+  width: 25%;
+  height: auto;
+  margin-right: 4rem;
+  }
+
+.showbox ul {
+
+  width: 100%;
+}
+.showbox li {
+  display: flex;
+  margin: 0.5rem 0;
+  border-top: 1px solid rgba(194,194,194,1);
+}
+.date {
+  width: 10%;
+}
+.event {
+  width: 90%;
+}
+.media {
+  width: 100%;
+}
+
+#section2{
+  height: 20rem;
+  background-color: white;
+}
+#container2 {
+  height: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+
+
+
+
+
+footer {
+  height: 20rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(194,194,194,1);
+  background-color: rgba(240,240,240,1);
+}
+footer h6{
+  margin: 0.5rem 0;
+}
